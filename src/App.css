@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+.container {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.head {
+  font-size: 8vh;
+  color: #0a7ec1;
+}
+input[type="file"] {
+  display: none;
+}
+.drop {
+  height: 10vh;
+  width: 30vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #0a7ec1;
+  color: white;
+  outline: none;
+  border-style: dotted;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vh;
+}
+button {
+  height: 5vh;
+  width: 15vh;
+  background-color: white;
+  color: #0a7ec1;
+}
+button:hover {
+  background-color: #0a7ec1;
+  color: white;
+}
+.imageconatiner {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 50vh;
+  height: 70vh;
+  margin-top: 2vh;
+}
