@@ -44,10 +44,17 @@ button:hover {
 }
 .imageconatiner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .image {
-  width: 50vh;
-  height: 70vh;
+  width: 85vh;
+  height: 75vh;
   margin-top: 2vh;
+  margin-right: 4vh;
+  margin-left: 4vh;
+}
+.im {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

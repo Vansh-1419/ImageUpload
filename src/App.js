@@ -44,14 +44,16 @@ const App = () => {
         </div>
         <button onClick={UploadHandler}>Upload</button>
       </div>
-      {imageList.map((image) => {
-        console.log(image);
-        return (
-          <div className="imagecontainer">
-            <img src={image} className="image" />
-          </div>
-        );
-      })}
+      <div className="im">
+        {imageList.map((image) => {
+          console.log(image);
+          return (
+            <div className="imagecontainer">
+              <img src={image} className="image" />
+            </div>
+          );
+        })}
+      </div>
     </React.Fragment>
   );
 };
